@@ -1,0 +1,30 @@
+{
+    "name": "daverandom/async-bitly-client",
+    "description": "Asynchronous bitly API client built on the amp concurrency framework",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Wright",
+            "email": "cw@daverandom.com"
+        }
+    ],
+    "keywords": [
+        "bitly",
+        "api",
+        "client",
+        "async",
+        "non-blocking",
+        "amp"
+    ],
+    "autoload": {
+        "psr-4": {"DaveRandom\\AsyncBitlyClient\\": "src/"}
+    },
+    "require": {
+        "php": ">=7",
+        "amphp/amp": "^1.2",
+        "amphp/artax": "^2",
+        "daverandom/exceptional-json": "^1.0"
+    }
+}
