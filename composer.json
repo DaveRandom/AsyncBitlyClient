@@ -19,7 +19,8 @@
         "amp"
     ],
     "autoload": {
-        "psr-4": {"DaveRandom\\AsyncBitlyClient\\": "src/"}
+        "psr-4": {"DaveRandom\\AsyncBitlyClient\\": "src/"},
+        "files": ["src/helpers.php"]
     },
     "require": {
         "php": ">=7",
